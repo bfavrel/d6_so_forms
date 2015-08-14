@@ -1,0 +1,320 @@
+# $Id$
+#
+# French translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  so_forms.admin.inc: n/a
+#  plugins/widgets/FormWidgetCheckboxes.class.php: n/a
+#  so_forms.module: n/a
+#  so_forms.info: n/a
+#  plugins/fields/FormFieldDates.class.php: n/a
+#  plugins/fields/FormFieldNumerical.class.php: n/a
+#  plugins/fields/FormFieldText.class.php: n/a
+#  plugins/widgets/FormWidgetOnOff.class.php: n/a
+#  plugins/widgets/FormWidgetDatefields.class.php: n/a
+#  plugins/widgets/FormWidgetRadios.class.php: n/a
+#  plugins/widgets/FormWidgetSelect.class.php: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-07-12 15:14+0200\n"
+"PO-Revision-Date: 2013-07-12 15:15+0100\n"
+"Last-Translator: David PIVERON\n"
+"Language-Team: French <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: so_forms.admin.inc:83;144
+msgid "delete"
+msgstr "supprimer"
+
+#: so_forms.admin.inc:125
+msgid "Original field : !field_name"
+msgstr "Champ original : !field_name"
+
+#: so_forms.admin.inc:138
+msgid "configure"
+msgstr "configurer"
+
+#: so_forms.admin.inc:166
+msgid "Informations"
+msgstr "Informations"
+
+#: so_forms.admin.inc:177
+msgid "The resulting form can be displayed using"
+msgstr "Le formulaire résultant peut être affiché en utilisant"
+
+#: so_forms.admin.inc:188
+msgid "Templates"
+msgstr "Templates"
+
+#: so_forms.admin.inc:202;709
+msgid "Save"
+msgstr "Enregistrer"
+
+#: so_forms.admin.inc:211
+msgid "-- Select a field --"
+msgstr "-- Sélectionner un champ --"
+
+#: so_forms.admin.inc:217
+msgid "Label"
+msgstr "Étiquette"
+
+#: so_forms.admin.inc:218
+msgid "If empty, field name will be used."
+msgstr "Si vide, le nom du champ sera utilisé"
+
+#: so_forms.admin.inc:224;630
+msgid "Field"
+msgstr "Champ"
+
+#: so_forms.admin.inc:244;810;870
+msgid "Field type"
+msgstr "Type de champ"
+
+#: so_forms.admin.inc:245;871
+msgid "Select a field"
+msgstr "Sélectionner un champ"
+
+#: so_forms.admin.inc:252
+msgid "Add a field"
+msgstr "Ajouter un champ"
+
+#: so_forms.admin.inc:263
+msgid "Title"
+msgstr "Titre"
+
+#: so_forms.admin.inc:268
+msgid "Add a group"
+msgstr "Ajouter un groupe"
+
+#: so_forms.admin.inc:351
+msgid "You have to set a label for this field."
+msgstr "Vous devez entrer une étiquette pour ce champ"
+
+#: so_forms.admin.inc:356
+msgid "You have to select a field."
+msgstr "Vous devez sélectionner un champ."
+
+#: so_forms.admin.inc:360
+msgid "You have to set a title for this group."
+msgstr "Vous devez entrer un titre pour ce groupe"
+
+#: so_forms.admin.inc:490
+msgid "Form's configuration has been saved"
+msgstr "La configuration du formulaire a été sauvegardée"
+
+#: so_forms.admin.inc:509
+msgid "Advanced form"
+msgstr "Formulaire avancé"
+
+#: so_forms.admin.inc:593
+msgid "Normal form"
+msgstr "Formulaire normal"
+
+#: so_forms.admin.inc:631
+msgid "Type"
+msgstr "Type"
+
+#: so_forms.admin.inc:632
+msgid "Enabled"
+msgstr "Activé"
+
+#: so_forms.admin.inc:633
+#: plugins/widgets/FormWidgetCheckboxes.class.php:468;524
+msgid "Weight"
+msgstr "Poids"
+
+#: so_forms.admin.inc:634
+msgid "Operations"
+msgstr "Actions"
+
+#: so_forms.admin.inc:656
+msgid "Add field"
+msgstr "Ajouter un champ"
+
+#: so_forms.admin.inc:672
+msgid "Add group"
+msgstr "Ajouter un groupe"
+
+#: so_forms.admin.inc:700
+msgid "Field '%field' configuration"
+msgstr "Configuration du champ '%field'"
+
+#: so_forms.admin.inc:713
+msgid "Back"
+msgstr "Retour"
+
+#: so_forms.admin.inc:803
+msgid "Unregistered field type found"
+msgstr "Type de champ inconnu rencontré"
+
+#: so_forms.admin.inc:845
+msgid "Field values"
+msgstr "Valeurs du champ"
+
+#: so_forms.admin.inc:858
+msgid "No values"
+msgstr "Pas de valeur"
+
+#: so_forms.module:506
+msgid "administer so forms"
+msgstr "administrer so forms"
+
+#: so_forms.info:0
+msgid "Forms!"
+msgstr "Forms!"
+
+#: so_forms.info:0
+msgid "User interfaces building API"
+msgstr "API de développement d'interfaces-utilisateur"
+
+#: so_forms.info:0
+msgid "Saison d'Or"
+msgstr "Saison d'Or"
+
+#: plugins/fields/FormFieldDates.class.php:41
+msgid "Use field label"
+msgstr "Afficher l'étiquette du champ"
+
+#: plugins/fields/FormFieldNumerical.class.php:33
+msgid "Field prefix"
+msgstr "Préfixe du champ"
+
+#: plugins/fields/FormFieldNumerical.class.php:41
+msgid "Field suffix"
+msgstr "Suffixe du champ"
+
+#: plugins/fields/FormFieldText.class.php:62
+msgid "Type of options"
+msgstr "Type d'options"
+
+#: plugins/fields/FormFieldText.class.php:65
+msgid "Use existing values as options"
+msgstr "Utiliser les valeurs existantes comme options"
+
+#: plugins/fields/FormFieldText.class.php:66
+msgid "Build custom options from existing values (unique use of values)"
+msgstr "Définir des options personnalisées à partir des valeurs existantes (usage unique des valeurs)"
+
+#: plugins/fields/FormFieldText.class.php:67
+msgid "Build custom options from existing values (multiple use of values)"
+msgstr "Définir des options personnalisées à partir des valeurs existantes (usage multiple des valeurs)"
+
+#: plugins/fields/FormFieldText.class.php:70
+msgid "Values will be updated after save"
+msgstr "Les valeurs seront mises à jour après sauvegarde"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:14
+msgid "Display the check boxes group label"
+msgstr "Afficher l'étiquette du groupe de cases à cocher"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:24;94;192
+msgid "Check boxes options"
+msgstr "Options des cases à cocher"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:154;246
+msgid "Delete"
+msgstr "Supprimer"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:166;257
+msgid "If empty, checked value will be used."
+msgstr "Si non rempli, la valeur sélectionnée sera utilisée"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:167;258;467;523
+msgid "Exposed value"
+msgstr "Valeur exposée"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:173;264
+#: plugins/widgets/FormWidgetOnOff.class.php:49
+msgid "Available values"
+msgstr "Valeurs disponibles"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:181;272
+msgid "Add"
+msgstr "Ajouter"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:290
+#: plugins/widgets/FormWidgetOnOff.class.php:61
+msgid "You have to select at least one value"
+msgstr "Vous devez sélectionner au moins une valeur"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:306
+msgid "Field has no option anymore."
+msgstr "Le champ n'a plus d'options à proposer"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:466
+msgid "Exposed"
+msgstr "Exposé"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:469
+msgid "Value"
+msgstr "Valeur"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:487
+msgid "Add an option"
+msgstr "Ajouter une option"
+
+#: plugins/widgets/FormWidgetCheckboxes.class.php:525
+msgid "Values"
+msgstr "Valeurs"
+
+#: plugins/widgets/FormWidgetDatefields.class.php:13
+msgid "Help text"
+msgstr "Texte d'aide"
+
+#: plugins/widgets/FormWidgetDatefields.class.php:21
+msgid "Field 'start' label"
+msgstr "Etiquette du champ 'debut'"
+
+#: plugins/widgets/FormWidgetDatefields.class.php:22
+msgid "From"
+msgstr "De"
+
+#: plugins/widgets/FormWidgetDatefields.class.php:30
+msgid "Field 'end' label"
+msgstr "Etiquette du champ 'fin'"
+
+#: plugins/widgets/FormWidgetDatefields.class.php:31
+msgid "To"
+msgstr "À"
+
+#: plugins/widgets/FormWidgetOnOff.class.php:14
+msgid "Values to use when the box is checked"
+msgstr "Valeurs correspondantes à la case à cocher"
+
+#: plugins/widgets/FormWidgetRadios.class.php:12
+msgid "Display the label of the radios buttons group"
+msgstr "Afficher l'étiquette du groupe de boutons radios"
+
+#: plugins/widgets/FormWidgetSelect.class.php:13
+msgid "Add a 'select all' option"
+msgstr "Ajouter une option de type 'tout sélectionner'"
+
+#: plugins/widgets/FormWidgetSelect.class.php:16
+msgid "None"
+msgstr "Aucun(e)"
+
+#: plugins/widgets/FormWidgetSelect.class.php:17;54
+msgid "Indifferent"
+msgstr "Indifférent"
+
+#: plugins/widgets/FormWidgetSelect.class.php:18;61
+msgid "All (male)"
+msgstr "Tous"
+
+#: plugins/widgets/FormWidgetSelect.class.php:19;70
+msgid "All (female)"
+msgstr "Toutes"
+
+#: plugins/widgets/FormWidgetSelect.class.php:26
+msgid "Distplay the label of the select box"
+msgstr "Afficher l'étiquette de la liste déroulante"
+
+#: plugins/widgets/FormWidgetSelect.class.php:29
+msgid "Select box options"
+msgstr "Options de la liste déroulante"
+

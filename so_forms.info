@@ -1,0 +1,7 @@
+; $Id$
+core = "6.x"
+version = "6.x-1.0"
+
+name = "Forms!"
+description = "User interfaces building API"
+package = "Saison d'Or"

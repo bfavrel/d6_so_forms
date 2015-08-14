@@ -1,0 +1,139 @@
+<?php
+
+/**
+ * Implementation of hook_install().
+ */
+function so_forms_install() {
+    drupal_install_schema('so_forms');
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function so_forms_uninstall() {
+    drupal_uninstall_schema('so_forms');
+}
+
+/**
+ * Implementation of hook_schema().
+ */
+function so_forms_schema() {
+    $schema = array();
+
+    $schema['so_forms'] = array(
+        'description' => '',
+        'fields' => array(
+            'sfid' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'description' => 'Primary key : form id',
+                'not null' => false,
+            ),            
+            'name' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => false,
+                'default' => '',
+                'description' => 'Human readable name',
+            ),
+            'params' => array(
+                'type' => 'text',
+                'description' => 'Form parameters',
+                'not null' => false,
+                'default' => '',
+            ),
+            'secured_sfid' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'description' => 'Public form id',
+                'not null' => false,
+            ),
+        ),
+        'primary key' => array('sfid'),
+    );
+    
+    $schema['so_forms_fields'] = array(
+        'description' => '',
+        'fields' => array(
+            'id' => array(
+                'type' => 'serial',
+                'unsigned' => true,
+                'not null' => true,
+                'description' => 'Primary Key: form field id',
+            ),            
+            'sfid' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'description' => 'Form id',
+                'not null' => true,
+                'default' => '',
+            ),
+            'label' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => true,
+                'default' => '',
+                'description' => 'Form field name',
+            ),
+            'field' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => true,
+                'default' => '',
+                'description' => 'Form field',
+            ),
+            'field_type' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => false,
+                'default' => '',
+                'description' => 'Field type',
+            ),
+            'widget' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => false,
+                'default' => '',
+                'description' => 'Form field widget',
+            ),
+            'field_values' => array(
+                'type' => 'text',
+                'not null' => false,
+                'default' => '',
+                'description' => 'Stored values for the field',
+            ),
+            'gid' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => false,
+                'default' => '',
+                'description' => 'Parent group form field id',
+            ),
+            'weight' => array(
+		'type' => 'int',
+		'unsigned' => false,
+		'not null' => true,
+		'default' => 0,
+		'description' => 'Form field weight',
+            ),
+            'params' => array(
+                'type' => 'text',
+                'description' => 'Form field parameters',
+                'not null' => false,
+                'default' => '',
+            ),
+            'secured_id' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'description' => 'Public field id',
+                'not null' => false,
+            ),
+        ),
+        'indexes' => array(
+            'sfid' => array('sfid'),
+        ),
+        'primary key' => array('id'),
+    );
+
+    return $schema;
+}
